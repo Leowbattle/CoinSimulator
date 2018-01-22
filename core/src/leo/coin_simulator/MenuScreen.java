@@ -65,6 +65,9 @@ public class MenuScreen implements Screen {
 
 		Label credits = new Label("Thanks to libGDX: https://libgdx.badlogicgames.com/ \nThanks to Picture To People: http://www.picturetopeople.org/", skin);
 		table.add(credits).row();
+
+		Label githubRepo = new Label("You can find this project on GitHub at: https://github.com/Leowbattle/CoinSimulator/", skin);
+		table.add(githubRepo).row();
 	}
 
 	@Override

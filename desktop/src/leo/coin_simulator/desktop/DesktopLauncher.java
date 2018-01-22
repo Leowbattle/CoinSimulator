@@ -10,6 +10,10 @@ import java.util.Random;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+
+		//16:9 aspect ratio
+		config.width = 1024;
+		config.height = 576;
 		new LwjglApplication(new CoinSimulator(), config);
 	}
 }
